@@ -5,10 +5,12 @@ using System.Text;
 
 namespace SaveMyWiFiPasswords
 {
-    class Program
+    class MainClass
     {
         static void Main(string[] args)
         {
+            var saveWifi = new SaveWiFi();
+            saveWifi.SaveAllPasswords();
         }
     }
 }
